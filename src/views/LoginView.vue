@@ -103,7 +103,7 @@ const signInWithGoogle = () => {
             <label
               class="block text-sm font-medium text-gray-700 mb-1"
               for="password"
-              >Contraseña</label
+              >Contrasena</label
             >
             <div class="relative">
               <input
@@ -120,7 +120,7 @@ const signInWithGoogle = () => {
                 class="absolute right-2 top-1/2 -translate-y-1/2 rounded-lg p-1.5 text-gray-500 hover:bg-gray-100"
                 @click="showPwd = !showPwd"
                 :aria-label="
-                  showPwd ? 'Ocultar contraseña' : 'Mostrar contraseña'
+                  showPwd ? 'Ocultar contrasena' : 'Mostrar contrasena'
                 "
               >
                 <IconEye v-if="!showPwd" class="h-5 w-5" />
@@ -189,7 +189,7 @@ const signInWithGoogle = () => {
               <a
                 @click="showDialog = true"
                 class="font-medium text-blue-600 hover:text-blue-700 cursor-pointer"
-                >¿Olvidaste tu contraseña?</a
+                >¿Olvidaste tu contrasena?</a
               >
             </div>
           </form>

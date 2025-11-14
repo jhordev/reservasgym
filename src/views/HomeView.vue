@@ -8,7 +8,7 @@ import {
   IconActivity, // Entrenamiento personal
   IconCategoryPlus, // Área de peso libre
   IconUsers, // Clases grupales
-  IconClipboardHeart, // Evaluación física
+  IconClipboardHeart, // Evaluacion fisica
   IconMapPin,
   IconPhone,
   IconRecordMail,
@@ -38,7 +38,7 @@ const services = [
   },
   {
     icon: IconClipboardHeart,
-    title: "Evaluación Física",
+    title: "Evaluacion Fisica",
     description:
       "Seguimiento detallado de tu progreso y ajustes personalizados a tu rutina.",
   },
@@ -64,7 +64,7 @@ const memberships = [
       "Acceso total 24/7",
       "Todas las clases grupales",
       "Casillero premium",
-      "Evaluación mensual",
+      "Evaluacion mensual",
       "App de seguimiento",
       "Invitado gratis 1 vez/mes",
     ],

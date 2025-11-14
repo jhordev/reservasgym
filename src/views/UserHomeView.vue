@@ -117,7 +117,7 @@ const benefits = [
   'Acceso total 24/7',
   'Todas las clases grupales',
   'Casillero premium',
-  'Evaluación mensual',
+  'Evaluacion mensual',
 ]
 
 /* =========================
@@ -142,7 +142,7 @@ const profile = ref({
    8) Soporte
 ========================= */
 const faqs = [
-  { q: '¿Cómo cambio o cancelo una reserva?', a: 'Desde Reservas > Próximas reservas, abre los 3 puntos y elige la acción.' },
+  { q: '¿Cómo cambio o cancelo una reserva?', a: 'Desde Reservas > Proximas reservas, abre los 3 puntos y elige la acción.' },
   { q: '¿Puedo invitar a alguien?', a: 'Depende de tu plan. En Premium puedes invitar 1 vez/mes.' },
   { q: '¿Cómo renuevo mi plan?', a: 'En la sección Membresía encontrarás el botón Renovar o Mejorar plan.' },
 ]
@@ -302,9 +302,9 @@ onMounted(() => {
               </div>
             </div>
 
-            <!-- Próximas reservas -->
+            <!-- Proximas reservas -->
             <div class="rounded-2xl border bg-white p-4 shadow-sm">
-              <p class="font-semibold text-gray-900 mb-3">Próximas reservas</p>
+              <p class="font-semibold text-gray-900 mb-3">Proximas reservas</p>
               <ul class="space-y-3">
                 <li v-for="r in reservations" :key="r.id" class="rounded-xl border p-3 flex items-center justify-between">
                   <div>
@@ -493,7 +493,7 @@ onMounted(() => {
             </div>
             <div class="mt-4 flex gap-2">
               <button class="rounded-xl px-4 py-2 border hover:bg-gray-50">Editar perfil</button>
-              <button class="rounded-xl px-4 py-2 border hover:bg-gray-50">Cambiar contraseña</button>
+              <button class="rounded-xl px-4 py-2 border hover:bg-gray-50">Cambiar contrasena</button>
             </div>
           </div>
         </section>

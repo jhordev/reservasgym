@@ -3,9 +3,9 @@ import {
   getDoc, getDocs, addDoc, setDoc, updateDoc, deleteDoc,
   serverTimestamp, Timestamp
 } from "firebase/firestore";
-import { firebaseApp } from "./app";
+import { app } from "./app";
 
-export const db = getFirestore(firebaseApp);
+export const db = getFirestore(app);
 
 // Factories de refs
 export const colRef = (path) => collection(db, path);
