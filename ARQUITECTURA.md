@@ -103,6 +103,10 @@
   // Renovación
   auto_renovacion: boolean,
 
+  // Adicionales
+  origen: string,                 // "recepción", "web", "promo X"
+  incluyePersonalTrainer: boolean,
+
   // Observaciones
   observaciones: string,          // Notas del admin
   motivo_suspension: string,      // Si está suspendida
@@ -154,6 +158,8 @@
   nombre: string,                 // "Spinning", "Yoga", "Funcional"
   descripcion: string,
   categoria: string,              // "Cardio", "Fuerza", "Flexibilidad"
+  nivel: string,                  // "básico", "intermedio", "avanzado"
+  intensidad: string,             // "baja", "media", "alta"
 
   // Instructor
   instructor_id: string,          // user_id del instructor
@@ -272,7 +278,7 @@
 
   // Registrado por
   registrado_por: string,         // user_id (puede ser recepción o auto check-in)
-  metodo: 'qr' | 'manual' | 'app',
+  metodoIngreso: 'qr' | 'manual' | 'lector' | 'app',
 
   createdAt: Timestamp
 }
