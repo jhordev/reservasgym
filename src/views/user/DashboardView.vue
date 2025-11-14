@@ -90,10 +90,10 @@ const proximasClases = ref([
       </BaseCard>
     </div>
 
-    <!-- Próximas Clases -->
+    <!-- Proximas Clases -->
     <BaseCard>
       <template #header>
-        <h2 class="text-xl font-bold text-gray-900">Próximas Clases</h2>
+        <h2 class="text-xl font-bold text-gray-900">Proximas Clases</h2>
       </template>
 
       <div v-if="proximasClases.length > 0" class="space-y-3">

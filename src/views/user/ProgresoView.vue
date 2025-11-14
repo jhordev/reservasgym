@@ -7,7 +7,7 @@ import { IconTrendingUp } from '@tabler/icons-vue'
   <div class="space-y-6">
     <div>
       <h1 class="text-3xl font-bold text-gray-900">Mi Progreso</h1>
-      <p class="mt-2 text-gray-600">Seguimiento de tu evolución física</p>
+      <p class="mt-2 text-gray-600">Seguimiento de tu evolución fisica</p>
     </div>
 
     <!-- Stats -->

@@ -7,7 +7,7 @@ import BaseButton from '@/components/base/BaseButton.vue'
   <div class="space-y-6">
     <div class="flex items-center justify-between">
       <div>
-        <h1 class="text-3xl font-bold text-gray-900">Gestión de Clases</h1>
+        <h1 class="text-3xl font-bold text-gray-900">Gestion de Clases</h1>
         <p class="mt-2 text-gray-600">Configurar clases grupales</p>
       </div>
       <BaseButton variant="primary">Nueva Clase</BaseButton>
@@ -15,7 +15,7 @@ import BaseButton from '@/components/base/BaseButton.vue'
 
     <BaseCard>
       <div class="text-center py-12 text-gray-500">
-        <p>Módulo de gestión de clases</p>
+        <p>Módulo de gestion de clases</p>
         <p class="text-sm mt-2">Funcionalidad en desarrollo</p>
       </div>
     </BaseCard>

@@ -6,8 +6,8 @@ import BaseButton from '@/components/base/BaseButton.vue'
 <template>
   <div class="space-y-6">
     <div>
-      <h1 class="text-3xl font-bold text-gray-900">Configuración</h1>
-      <p class="mt-2 text-gray-600">Configuración general del gimnasio</p>
+      <h1 class="text-3xl font-bold text-gray-900">Configuracion</h1>
+      <p class="mt-2 text-gray-600">Configuracion general del gimnasio</p>
     </div>
 
     <BaseCard>
@@ -16,7 +16,7 @@ import BaseButton from '@/components/base/BaseButton.vue'
       </template>
 
       <div class="text-center py-12 text-gray-500">
-        <p>Módulo de configuración</p>
+        <p>Módulo de configuracion</p>
         <p class="text-sm mt-2">Funcionalidad en desarrollo</p>
       </div>
 

@@ -39,7 +39,7 @@ const submit = async (e) => {
   errorMsg.value = "";
 
   if (password.value !== confirm.value) {
-    errorMsg.value = "Las contraseñas no coinciden.";
+    errorMsg.value = "Las contrasenas no coinciden.";
     return;
   }
   if (!accepted.value) {
@@ -156,7 +156,7 @@ const signUpWithGoogle = () => {
             <label
               class="block text-sm font-medium text-gray-700 mb-1"
               for="password"
-              >Contraseña</label
+              >Contrasena</label
             >
             <div class="relative mb-2">
               <input
@@ -173,7 +173,7 @@ const signUpWithGoogle = () => {
                 class="absolute right-2 top-1/2 -translate-y-1/2 rounded-lg p-1.5 text-gray-500 hover:bg-gray-100"
                 @click="showPwd = !showPwd"
                 :aria-label="
-                  showPwd ? 'Ocultar contraseña' : 'Mostrar contraseña'
+                  showPwd ? 'Ocultar contrasena' : 'Mostrar contrasena'
                 "
               >
                 <IconEye v-if="!showPwd" class="h-5 w-5" />
@@ -210,7 +210,7 @@ const signUpWithGoogle = () => {
             <label
               class="block text-sm font-medium text-gray-700 mb-1"
               for="confirm"
-              >Confirmar contraseña</label
+              >Confirmar contrasena</label
             >
             <div class="relative">
               <input
@@ -220,14 +220,14 @@ const signUpWithGoogle = () => {
                 required
                 autocomplete="new-password"
                 class="w-full rounded-xl border border-gray-300 bg-white px-4 py-3 pr-11 text-gray-900 placeholder:text-gray-400 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500"
-                placeholder="Repite la contraseña"
+                placeholder="Repite la contrasena"
               />
               <button
                 type="button"
                 class="absolute right-2 top-1/2 -translate-y-1/2 rounded-lg p-1.5 text-gray-500 hover:bg-gray-100"
                 @click="showPwd2 = !showPwd2"
                 :aria-label="
-                  showPwd2 ? 'Ocultar contraseña' : 'Mostrar contraseña'
+                  showPwd2 ? 'Ocultar contrasena' : 'Mostrar contrasena'
                 "
               >
                 <IconEye v-if="!showPwd2" class="h-5 w-5" />

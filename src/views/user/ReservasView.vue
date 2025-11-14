@@ -14,7 +14,7 @@ import { IconBarbell } from '@tabler/icons-vue'
 
     <BaseCard>
       <template #header>
-        <h2 class="text-xl font-bold text-gray-900">Próximas Clases</h2>
+        <h2 class="text-xl font-bold text-gray-900">Proximas Clases</h2>
       </template>
 
       <div class="space-y-3">

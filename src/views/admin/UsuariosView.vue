@@ -7,7 +7,7 @@ import BaseButton from '@/components/base/BaseButton.vue'
   <div class="space-y-6">
     <div class="flex items-center justify-between">
       <div>
-        <h1 class="text-3xl font-bold text-gray-900">Gestión de Usuarios</h1>
+        <h1 class="text-3xl font-bold text-gray-900">Gestion de Usuarios</h1>
         <p class="mt-2 text-gray-600">Administrar todos los usuarios del gimnasio</p>
       </div>
       <BaseButton variant="primary">Nuevo Usuario</BaseButton>
@@ -15,7 +15,7 @@ import BaseButton from '@/components/base/BaseButton.vue'
 
     <BaseCard>
       <div class="text-center py-12 text-gray-500">
-        <p>Módulo de gestión de usuarios</p>
+        <p>Módulo de gestion de usuarios</p>
         <p class="text-sm mt-2">Funcionalidad en desarrollo</p>
       </div>
     </BaseCard>

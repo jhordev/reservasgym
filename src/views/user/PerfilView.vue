@@ -67,28 +67,28 @@ const dni = ref(userProfile.value?.dni || '')
       </template>
     </BaseCard>
 
-    <!-- Cambiar Contraseña -->
+    <!-- Cambiar Contrasena -->
     <BaseCard>
       <template #header>
-        <h2 class="text-xl font-bold text-gray-900">Cambiar Contraseña</h2>
+        <h2 class="text-xl font-bold text-gray-900">Cambiar Contrasena</h2>
       </template>
 
       <div class="space-y-4">
         <BaseInput
           type="password"
-          label="Contraseña actual"
+          label="Contrasena actual"
           :icon="IconLock"
           placeholder="••••••••"
         />
         <BaseInput
           type="password"
-          label="Nueva contraseña"
+          label="Nueva contrasena"
           :icon="IconLock"
           placeholder="••••••••"
         />
         <BaseInput
           type="password"
-          label="Confirmar nueva contraseña"
+          label="Confirmar nueva contrasena"
           :icon="IconLock"
           placeholder="••••••••"
         />
@@ -96,7 +96,7 @@ const dni = ref(userProfile.value?.dni || '')
 
       <template #footer>
         <BaseButton variant="primary">
-          Actualizar Contraseña
+          Actualizar Contrasena
         </BaseButton>
       </template>
     </BaseCard>
