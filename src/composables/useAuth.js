@@ -1,5 +1,5 @@
 import { ref, computed, onMounted } from 'vue'
-import { onAuthStateChange, logoutUser, getCurrentUserProfile } from '@/config/firebase/auth'
+import { onAuthStateChange, logoutUser } from '@/config/firebase/auth'
 import { getUserByUid } from '@/config/firebase/users'
 
 // Estado global compartido entre todas las instancias
