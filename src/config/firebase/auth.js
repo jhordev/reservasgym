@@ -52,18 +52,4 @@ export const getCurrentAuthUser = () => {
   return auth.currentUser
 }
 
-// Obtener perfil completo del usuario actual (Auth + Firestore)
-export const getCurrentUserProfile = async () => {
-  const authUser = getCurrentAuthUser()
-  if (!authUser) return null
-
-  try {
-    const profile = await getUserByUid(authUser.uid)
-    return profile
-  } catch (error) {
-    console.error('Error al obtener perfil del usuario:', error)
-    return null
-  }
-}
-
 export { auth }
